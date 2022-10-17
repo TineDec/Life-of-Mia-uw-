@@ -37,6 +37,12 @@
     repeat(2,50%);
 }
 
+.grid-column-3-3-3{
+  display: grid;
+  grid-template-columns:
+    repeat(3,33.3%);
+}
+
 .oranje-box{
   background-color: rgb(252, 201, 129);
 }
